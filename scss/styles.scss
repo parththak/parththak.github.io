@@ -350,7 +350,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/background.png);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -405,7 +405,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: black;
 
     span {
         cursor: pointer;
@@ -414,8 +414,9 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid lighten($base-color, 25%);
+        border: 3px solid white;
         text-align:center;
+        background-color: white;
     }
 
     i {
@@ -538,7 +539,6 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
     margin-bottom: 30px;
 }
 
